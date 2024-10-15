@@ -353,6 +353,7 @@ class Missile(pygame.sprite.Sprite):
         self.rect.y += self.speedy
         if self.rect.bottom < 0:
             self.kill()
+            mkaeb
 
 
 ###################################################
